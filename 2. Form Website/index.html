@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <h1>Complex Form Design</h1>
+        <form action="">
+            <div class="form_container">
+                <div class="box">
+                    <label for="first">First Name</label>
+                    <input type="text" id="first" name="first" placeholder="Enter First Name....">
+                </div>
+                <div class="box">
+                    <label for="last">Last Name</label>
+                    <input type="text" id="last" name="last" placeholder="Enter Last Name....">
+                </div>
+                <div class="box">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Enter Email....">
+                </div>
+                <div class="box">
+                    <label for="phonenumber">Phone No.</label>
+                    <input type="number" id="phonenumber" name="phonenumber" placeholder="Enter Phone Number....">
+                </div>
+                <div class="box">
+                    <label for="country">Country</label>
+                    <select name="country" id="country">
+                        <option value="">Country</option>
+                        <option value="bangladesh">Bangladesh</option>
+                        <option value="india">India</option>
+                        <option value="nepal">Nepal</option>
+                        <option value="pakistan">Pakistan</option>
+                    </select>
+                </div>
+                <div class="box">
+                    <label for="city">City</label>
+                    <select name="city" id="city">
+                        <option value="">City</option>
+                        <option value="bangladesh">Bangladesh</option>
+                        <option value="india">India</option>
+                        <option value="nepal">Nepal</option>
+                        <option value="pakistan">Pakistan</option>
+                    </select>
+                </div>
+                <div class="box gender">
+                    <div class="radio">
+                    <label for="gender">Gender</label>
+                    <input type="radio" id="male" name="gender">
+                    <label for="male">Male</label>
+                    <input type="radio" id="female" name="gender">
+                    <label for="female">Female</label>
+                    <input type="radio" id="other" name="gender">
+                    <label for="other">Other</label>
+                </div>
+                </div>
+                <div class="box textarea">
+                    <label for="bio">Short Bio</label>
+                    <textarea name="bio" id="bio" placeholder="Write Here...." rows="8" cols="60" spellcheck="true" ></textarea>
+                </div>
+                <div class="box">
+                    <label for="password">Password</label>
+                    <input type="password" id="passwordt" name="password" placeholder="Enter Password....">
+                </div>
+                <div class="box">
+                    <label for="cpassword">Confirm Password</label>
+                    <input type="cpassword" id="cpasswordt" name="cpassword" placeholder="Enter Password....">
+                </div>
+            </div>
+            <div class="last_box">
+                <input type="checkbox" id="accept" name="accept">
+                <label for="accept">I accept terms & conditions</label>
+                <div class="button">
+                    <button class="reset">Reset</button>
+                    <button class="submit">Submit</button>
+                </div>
+            </div>
+        </form>
+    </main> 
+</body>
+</html>
